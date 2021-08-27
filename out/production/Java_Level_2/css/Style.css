@@ -1,0 +1,90 @@
+#hbox {
+-fx-background-color: #2F4F4F;
+  -fx-opacity: 0.8;
+}
+
+#sendButton {
+    -fx-background-radius: 20;
+    -fx-padding: 10px;
+    -fx-background-insets: 5px;
+    -fx-font: 18px "Roboto";
+    -fx-background-color: #2F4F4F;
+    -fx-text-fill: white;
+
+}
+
+#textArea {
+    -fx-background-image: url("../img/background.jpg");
+    -fx-font: 14px "Roboto";
+    -fx-control-inner-background: gray;
+    -fx-text-fill: white;
+}
+
+.scroll-bar: vertical {
+    -fx-background-color: #FFFAFA;
+
+}
+
+.scroll-bar: vertical .thumb {
+    -fx-background-color: #2F4F4F;
+    -fx-background-radius: 5em;
+}
+
+.text-area .viewport {
+    -fx-background-color: transparent;
+}
+
+.text-area .content {
+    -fx-background-color: transparent;
+}
+
+.text-area .text {
+    -fx-effect: dropshadow(gaussian, #2F4F4F, 10, 1, 0, 0);
+     -fx-opacity: 0.8;
+      -fx-font: 12px "Roboto";
+}
+
+#textField {
+    -fx-pref-width: 200;
+    -fx-background-radius: 100;
+    -fx-padding: 10px;
+    -fx-background-insets: 5px;
+    -fx-control-inner-background: white;
+    -fx-font: 16px "Roboto";
+}
+
+#loginField {
+ -fx-pref-width: 100;
+    -fx-background-radius: 100;
+    -fx-padding: 10px;
+    -fx-background-insets: 5px;
+    -fx-control-inner-background: white;
+    -fx-font: 16px "Roboto";
+}
+
+#passwordField {
+ -fx-pref-width: 150;
+    -fx-background-radius: 100;
+    -fx-padding: 10px;
+    -fx-background-insets: 5px;
+    -fx-control-inner-background: white;
+    -fx-font: 16px "Roboto";
+}
+
+#authButton {
+   -fx-background-radius: 20;
+     -fx-padding: 10px;
+     -fx-background-insets: 5px;
+     -fx-font: 18px "Roboto";
+     -fx-background-color: #2F4F4F;
+     -fx-text-fill: white;
+}
+
+#clientsList
+{
+    -fx-background-radius: 100;
+    -fx-background-insets: 5px;
+    -fx-control-inner-background: #2F4F4F;
+    -fx-font: 14px "Roboto";
+      -fx-opacity: 0.7;
+}
